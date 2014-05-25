@@ -19,6 +19,11 @@ body {
     background-size: 111%;
   }
 }
+.navbar {
+  z-index: 50 !important;
+  position: fixed !important;
+  width: 100%;
+}
 .navbar.navbar-autorama {
   height: 55px;
   margin-bottom: 0;
@@ -38,16 +43,4 @@ body {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-}
-.swiper-container {
-  float: left;
-  clear: both;
-}
-.swiper-slide {
-  width: 100%;
-  height: 100%;
-  font-size: 1.5em;
-}
-.swiper-slide.intro2 {
-  background-color: #007133;
 }
