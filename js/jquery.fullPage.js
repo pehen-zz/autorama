@@ -11,7 +11,7 @@
 		// Create some defaults, extending them with any options that were provided
 		options = $.extend({
 			"verticalCentered" : true,
-			'resize' : true,
+			'resize' : false,
 			'slidesColor' : [],
 			'anchors':[],
 			'scrollingSpeed': 700,
@@ -41,12 +41,12 @@
 			'normalScrollElementTouchThreshold': 5,
 
 			//events
-			'afterLoad': null,
-			'onLeave': null,
-			'afterRender': null,
-			'afterResize': null,
-			'afterSlideLoad': null,
-			'onSlideLeave': null
+			'afterLoad': false,
+			'onLeave': false,
+			'afterRender': false,
+			'afterResize': false,
+			'afterSlideLoad': false,
+			'onSlideLeave': false
 		}, options);		
 		
 	    // Disable mutually exclusive settings

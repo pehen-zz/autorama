@@ -1,0 +1,145 @@
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.boxStyle {
+  border-radius: 4px;
+  background-color: rgba(200, 200, 200, 0.5);
+  box-shadow: 2 2 1 0 #212121;
+}
+#header {
+  position: fixed;
+  background: #e8c31d;
+  z-index: 9;
+}
+.navbar {
+  position: fixed !important;
+  width: 100%;
+  font-size: 1.1em;
+}
+.navbar.navbar-autorama {
+  height: 55px;
+  margin-bottom: 0;
+  background-color: #e8c31d;
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  z-index: -1;
+}
+.navbar.navbar-autorama .navbar-nav {
+  background-color: rgba(232, 195, 29, 0.7);
+  margin: 0 -15px;
+}
+.navbar.navbar-autorama a {
+  color: #212121 !important;
+  text-shadow: 1px 1px 0px lightgray;
+}
+.navbar.navbar-autorama a:hover {
+  color: #6e6e6e;
+}
+.navbar.navbar-autorama a.navbar-brand {
+  display: block;
+  width: 170px;
+  height: 110px;
+  text-indent: -999999px;
+  background: url(../img/autorama.png) no-repeat center #e8c31d;
+  background-size: 80%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  z-index: 50 !important;
+}
+.navbar .navbar-toggle {
+  background-color: #f1dc7a;
+}
+@media (max-width: 1023px) {
+  .navbar-brand {
+    width: 120px !important;
+    height: 54px !important;
+    background-size: 70% !important;
+  }
+}
+.section {
+  padding-top: 90px;
+}
+.section.intro {
+  background: url("../img/backtest.png") no-repeat center;
+  background-size: 100% 100%;
+}
+.section.transito {
+  background: url("../img/backtest.png") no-repeat center;
+  background-size: 100% 100%;
+}
+.section.transito .container {
+  border-radius: 4px;
+  background-color: rgba(200, 200, 200, 0.5);
+  box-shadow: 2 2 1 0 #212121;
+}
+.section.violencia {
+  background: url("../img/backtest.png") no-repeat center;
+  background-size: 100% 100%;
+}
+.section.violencia .container {
+  border-radius: 4px;
+  background-color: rgba(200, 200, 200, 0.5);
+  box-shadow: 2 2 1 0 #212121;
+}
+.section.dificuldades {
+  background: url("../img/backtest.png") no-repeat center;
+  background-size: 100% 100%;
+}
+.section.dificuldades .container {
+  border-radius: 4px;
+  background-color: rgba(200, 200, 200, 0.5);
+  box-shadow: 2 2 1 0 #212121;
+}
+.section.mudar {
+  background: url("../img/backtest.png") no-repeat center;
+  background-size: 100% 100%;
+}
+.section.mudar .container {
+  border-radius: 4px;
+  background-color: rgba(200, 200, 200, 0.5);
+  box-shadow: 2 2 1 0 #212121;
+}
+.section.saude {
+  background: url("../img/backtest.png") no-repeat center;
+  background-size: 100% 100%;
+}
+.section.saude .container {
+  border-radius: 4px;
+  background-color: rgba(200, 200, 200, 0.5);
+  box-shadow: 2 2 1 0 #212121;
+}
+.section.parceiros {
+  background: url("../img/backtest.png") no-repeat center;
+  background-size: 100% 100%;
+}
+.section.parceiros .container {
+  border-radius: 4px;
+  background-color: rgba(200, 200, 200, 0.5);
+  box-shadow: 2 2 1 0 #212121;
+}
+.section.sobre {
+  background: url("../img/backtest.png") no-repeat center;
+  background-size: 100% 100%;
+}
+.section.sobre .container > p {
+  border-radius: 4px;
+  background-color: rgba(200, 200, 200, 0.5);
+  box-shadow: 2 2 1 0 #212121;
+  padding: 10px;
+}
+.section.sobre .row div {
+  border-radius: 4px;
+  background-color: rgba(200, 200, 200, 0.5);
+  box-shadow: 2 2 1 0 #212121;
+  padding: 5px 10px;
+}
+.section.sobre .row div img {
+  width: 100%;
+  border-radius: 20px;
+}
+.section.slide1 {
+  background-color: blue;
+}

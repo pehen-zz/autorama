@@ -9,22 +9,38 @@
 
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/jquery.fullPage.css">
 
 	<link rel="stylesheet" href="css/style.css">
 
 	<link rel="shortcut icon" href="imagens/icon.png" />
 
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,800,700,600|Roboto:400,300,100,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic|Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+
 	<script type="text/javascript" src="js/jquery.2.1.1.js">
 	</script>
 
+	<script type="text/javascript" src="js/jquery-ui-1.10.4.min.js">
+	</script>
+
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	
+	<script type="text/javascript" src="js/jquery.slimscroll.min.js">
+	</script>
 
 	<script type="text/javascript" src="js/jquery.fullPage.js">
 	</script>
+
+	<script type="text/javascript">$(document).ready(function() {
+		$('#fullpage').fullpage({
+			anchors: ['section0', 'section1', 'section2', 'section3', 'section4', 'section5', 'section6', 'section7	'],
+			'scrollOverflow': true
+		});
+	});</script>
 </head>
 
 <body>
-	<header>
+	<header id="header">
 		<nav class="navbar navbar-default navbar-autorama">
 			<div class="navbar-header">
 				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#menuMobile">
@@ -34,28 +50,192 @@
 					<span class="icon-bar"></span>
 				</button>
 
-				<a href="index.html" class="navbar-brand">Projeto Autorama</a>
+				<a href="#section0" class="navbar-brand">Projeto Autorama</a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="menuMobile">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="javascript:;">o trânsito</a></li>
-					<li><a href="javascript:;">a violência</a></li>
-					<li><a href="javascript:;">dificuldades</a></li>
-					<li><a href="javascript:;">como mudar</a></li>
-					<li><a href="javascript:;">vida e saúde</a></li>
-					<li><a href="javascript:;">parceiros</a></li>
-					<li><a href="javascript:;">sobre o projeto</a></li>
+					<li><a href="#section1">o trânsito</a></li>
+					<li><a href="#section2">a violência</a></li>
+					<li><a href="#section3">dificuldades</a></li>
+					<li><a href="#section4">como mudar</a></li>
+					<li><a href="#section5">vida e saúde</a></li>
+					<li><a href="#section6">parceiros</a></li>
+					<li><a href="#section7">sobre o projeto</a></li>
 				</ul>
 
 			</div>
 		</nav>	
 	</header>
 
-	<footer>
 
-	</footer>
+	<div id="section0" class="section intro">
+		<div class="container">
+			<h2>Projeto Autorama</h2>
+		</div>
 
+	</div>
+
+	<div id="section1" class="section transito">
+		<div class="container">
+			<h2>O Trânsito</h2>
+			<h3></h3>
+			<ul>
+				<li>Ação ou resultado de transitar; </li>
+				<li>circulação de veículos em vias públicas; tráfego; </li>
+				<li>movimento de veículos e pedestres considerado em seu conjunto: as leis do trânsito; </li>
+				<li>mudança de um local para outro;</li>
+			</ul>
+		</div>
+
+	</div>
+
+	<div id="section2" class="section violencia">
+		<div class="container">
+			<h2>A Violência</h2>
+			<h3>Estatísticas</h3>
+			<p>Um novo índice para o cálculo do risco no trânsito, com base no número de mortes por quilômetro, foi testado recentemente na Escola de Engenharia de São Carlos, da USP. O método considera a distância percorrida pela frota para calcular o índice de mortes por quilômetro percorrido.  O novo método permite dados mais exatos, como qual parcela da população utiliza automóveis e com que intensidade. O cálculo é feito pela divisão do total de mortes pela quilometragem existente no território analisado. Entre 2004 e 2008 houve uma redução de aproximadamente 18,2% no número de mortes por bilhão de quilômetros percorridos. Entretanto, tal redução se deve ao aumento da frota e do consumo de combustível, pois houve um aumento de 34 mil mortes em 2004 para 38 mil em 2008.
+			</p>
+			<p>No estado de São Paulo, o estudo aponta o menor índice de mortes, sendo 35,81 por bilhão de quilômetros em 2008.
+			</p> 
+			<p>O maior índice, por sua vez, foi registrado no estado do Piauí, com 146 mortes por bilhão de quilômetros. Tal número equivale ao do Estados Unidos no início do processo de motorização, em 1926, de acordo com o engenheiro civil Jorge Bastos, responsável pelo estudo. 
+			</p>
+			<p>Com relação aos veículos envolvidos nos atropelamentos :
+				<ul>
+					<li>51% são automóveis ; </li>
+					<li>30,3% são motocicletas ; </li>
+					<li>10,4% são ônibus; </li>
+					<li>2,4% são caminhões ;</li>
+					<li>0,4% são bicicletas;</li>
+					<li>5,5% não têm informações;</li>
+				</ul>
+			</p>
+			<p>Situação 
+				<ul>
+					<li>83% dos pedestres mortos estavam atravessando a rua; </li>
+					<li>10% parados ou andando na pista; </li>
+					<li>7% sobre a calçada;</li>
+				</ul>
+			</p>
+
+			<p>Outras informações :
+				<ul>
+					<li>36% dos mortos são idosos; </li>
+					<li>São atropelados mais homens do que mulheres (24,5% a mais); </li>
+					<li>16% dos mortos tinham idade entre 20 e 29 anos; </li>
+					<li>O horário de maior concentração de atropelamentos é entre 18h00 e 20h00.;</li>
+					<li>Há mais atropelamentos nas madrugadas de sábados e domingos do que nas madrugadas de outros dias.;</li>
+					<li>Há mais atropelamentos nas sextas-feiras e nos sábados do que nos outros dias da semana (12,5% a mais);</li>
+				</ul>
+			</p>
+			<p>Só no ano de 2010, aconteceram 1,24 milhão de mortes por acidente de trânsito em 182 países do mundo.  Entre 20 e 50 milhões sobrevivem com traumatismos e feridas.  Os acidentes de trânsito representam a 3ª causa de mortes na faixa de 30-44 anos.  A 2ª na faixa de 5-14 e 1ª na faixa de 15-29 anos de idade.  A OMS estima que, na atualidade, 90% dessas mortes acontecem em países com rendimentos baixos ou médios que, em conjunto, possuem menos da metade dos veículos do mundo.  E vai ser precisamente nesses países que as previsões da OMS indicam que a situação vai se agravar ainda muito mais, em função de um esperado aumento nos índices de motorização, sem equivalentes investimentos na segurança nas vias públicas, como vem acontecendo no Brasil.  Atualmente, tais acidentes já representam um custo global de US$ 518 bilhões/ano.  Se nada for feito, a OMS estima que deveremos ter 1,9 milhão de mortes no trânsito em 2020 e 2,4 milhões em 2030. 
+			</p>
+		</div>
+	</div>
+
+	<div id="section3" class="section dificuldades">
+		<div class="container">
+			<h2>As dificuldades</h2>
+			<p>“Desde o início das operações, em 1974, a cidade (de São Paulo) ganhou uma média de 1,9 quilômetro de novas linhas por ano, alcançando 70,6 quilômetros de trilhos. Em Xangai, onde as operações começaram em 1993, a malha metroviária já completou 410 quilômetros […]”</p>
+
+			<p>Por que o paulistano, ou o cidadão da grande metrópole, não consegue deixar o carro em casa e ir trabalhar de transporte público? </p>
+
+			<p>“O encarecimento das viagens em coletivos enfraquece o uso do ônibus como um dos principais meios de convencimento para que o paulistano deixe de usar o transporte individual.”</p>
+
+			<p>O transporte público no Brasil vive uma crise. Tal crise se dá pelo não acompanhamento do fluxo, que cresce cada vez mais. O transporte público não dá ao usuário o conforto necessário. O transporte público não dá ao usuário a garantia de pontualidade, de funcionalidade. O usuário não está satisfeito com o transporte público. Por isso, os emplacamentos nas grandes cidades não param de aumentar. O cidadão prefere deixar o transporte público e sair de carro para ir ao trabalho ou passear. </p>
+
+			<p>Paradoxalmente, a opção por transporte individual não fez com que a situação melhorasse. O trânsito piora a cada dia e os motoristas não deixarão seus carros em casa para sair de ônibus ou metrô. Com o trânsito caótico e o transporte público sendo um serviço que deixa a desejar, qual a solução? Infelizmente, isso não depende só do cidadão ou de um ou outro órgão público. </p>
+
+			<p>Se todo esse trabalho, que demanda uma grande equipe e muito foco, fosse feito, a situação de transporte do Brasil poderia se equiparar a de países desenvolvidos, onde o rico deixa o carro em casa para usar o transporte público.</p>
+		</div>
+
+	</div>
+
+	<div id="section4" class="section mudar">
+		<div class="container">
+			<h2>Como mudar</h2>
+			<p>Maneiras de enfrentar um situação tão complexa, algumas 	abordagens são recomendadas. Tais envolvem:</p>
+			<ul>
+				<li>A educação, no sentido de instruir os usuários quanto às formas adequadas e seguras de utilização das vias públicas</li>
+				<li>A engenharia, no sentido de prover o sistema viário de elementos tais que possibilitem a movimentação de veículos e pessoas com fluidez, conforto e segurança. Também, aprimorar a segurança e desempenho dos veículos automotores.</li>
+				<li>A aplicação prática de leis. Se as leis forem, em primeiro plano, adotadas no cotidiano dos motoristas e, em seguida, fiscalizadas pelo governo, o trânsito se tornaria um local de exerção de cidadania. Assim, o conhecimento de tal conteúdo daria suporte ao conhecimento das reais consequências dos acidentes.
+				</li>
+				<li>Respirar. Sempre que algum motorista cometer uma imprudência, mesmo que você esteja estressado, procure respirar. Para que criar mais um problema ao reagir de forma violenta? Em muitos casos, é melhor ser feliz do que ter razão.</li>
+				<li>Priorizar transporte público antes do individual.
+				</li>
+			</ul>
+		</div>
+
+	</div>
+
+	<div id="section5" class="section saude">
+		<div class="container">
+			<h2>Vida e saúde</h2>
+			<p>Que o trânsito nas grandes cidades é um vilão às grandes saúdes, todos sabem. Mas você sabe em que, exatamente, o trânsito congestionado nos afeta? De maneira geral, estresse e exposição à poluição atmosférica e sonora são os maiores danos que o ser humano sofre nesses ambientes.</p>
+			<p>Permanecer sentado, com pernas encolhidas, por várias horas pode causar problemas circulatórios, o que resulta em inchamento, dores e muitas vezes varizes nas pernas. Na pior das hipóteses, o indivíduo pode sofrer de trombose venosa. Além de tudo, a repetição incessante de movimentos pode causar fadiga e desgaste de articulações, o que causa dores nos ombros, costas e coluna. </p>
+			<p>Engana-se o motorista que pensa que dentro do veículo está protegido da poluição atmosférica causada pela combustão dos motores automotivos. O laboratório de poluição da USP já fez estudos que constataram que no interior dos veículos, a poluição chega a ser 30% maior do que às margens das grandes avenidas de São Paulo. Os poluentes são nocivos à saúde a partir do momento em que irritam olhos e mucosas, podendo </p>
+			<ul>
+				<p>Como amenizar os principais problemas de saúde causados no trânsito?</p>
+				<li>Esticar os braços, como se estivesse se espreguiçando</li>
+				<li>Alongar-se ao sair do veículo</li>
+				<li>Caminhar após o trânsito</li>
+				<li>Beber bastante líquido, para amenizar problemas circulatórios </li>
+				<li>Inspire e expore profundamente</li>
+				<li>Dar uma chance ao transporte público</li>
+				<li>Acima de tudo, manter a calma*</li>
+				<p>* Apesar de ser difícil, respirar, ouvir música, cantar e levar tudo no bom-humor são algumas saídas. Experimente.</p>
+			</ul>
+		</div>
+
+	</div>
+
+	<div id="section6" class="section parceiros">
+		<div class="container">
+			<h2>Parceiros</h2>
+		</div>
+
+	</div>
+
+	<div id="section7" class="section sobre">
+		<div class="container">
+			<h2>Sobre o projeto</h2>
+			<p>Este projeto foi desenvolvido pelos alunos do 3˚ semestre de Design Digital do Centro Universitário Senac.</p>
+			<!-- <ul>
+				<li><h3>Guilherme Bustamante</h3>
+					<p>Um cara da hora.</p>
+					<img src="img/gui.jpg" alt="">
+				</li>
+				<li><h3>Henrique Abdala</h3>
+					<p>Um cara massa.</p>
+					<img src="img/henri.jpg" alt="">
+				</li>
+				<li><h3>Pedro Gasparini</h3>
+					<p>Um cara colorido.</p>
+					<img src="img/pe.jpg" alt="">
+				</li>
+			</ul> -->
+
+			<div class="row">
+				<div class="col-md-4 col-xs-8 col-xs-offset-2">
+					<h3>Guilherme Bustamante</h3>
+					<p>Um cara da hora.</p>
+					<a href="https://www.facebook.com/guilherme.bustamante.73" target="_blank"><img src="img/gui.jpg" alt=""></a>
+				</div>
+				<div class="col-md-4 col-xs-8 col-xs-offset-2">
+					<h3>Henrique Abdala</h3>
+					<p>Um cara massa.</p>
+					<a href="https://www.facebook.com/abdaladasarabias?fref=ts" target="_blank"><img src="img/henri.jpg" alt=""></a>
+				</div>
+				<div class="col-md-4 col-xs-8 col-xs-offset-2">
+					<h3>Pedro Gasparini</h3>
+					<p>Um cara colorido.</p>
+					<a href="https://www.facebook.com/pedro.gasparini?fref=ts" target="_blank"><img src="img/pe.jpg" alt=""></a>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
 
 </body>
 </html>
