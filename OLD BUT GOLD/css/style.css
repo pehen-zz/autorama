@@ -1,6 +1,5 @@
 body {
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
-  font-size: 1.4em;
   background: url(../img/backtest.png) top center no-repeat;
   background-size: 110%;
   -webkit-animation: bgmove 2s infinite;
